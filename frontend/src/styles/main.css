@@ -1,0 +1,116 @@
+/* frontend/src/styles/main.css */
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4; /* Light gray background */
+  color: #333; /* Dark text */
+  line-height: 1.6;
+}
+
+/* Main Container */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Sub Container */
+.container {
+  max-width: 800px; /* Max width for the main content */
+  margin: 20px auto; /* Center align the container */
+  padding: 50px 100px; /* Padding for larger screens */
+  background-color: #fff; /* White background for the container */
+  border-radius: 25px; /* Rounded corners */
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Title */
+h1 {
+  text-align: center; /* Center align the title */
+  margin-bottom: 20px; /* Space below the title */
+  color: #4a90e2; /* Blue color for the title */
+}
+
+/* File Upload Section */
+.file-upload {
+  display: flex; /* Flexbox for layout */
+  flex-direction: column; /* Column layout */
+  align-items: center; /* Center items */
+}
+
+/* Input Field */
+input[type="file"] {
+  font-size: 15px; /* Font size */
+  margin: 10px 0; /* Space above and below input */
+  padding: 15px; /* Reduced padding for mobile */
+  border: 1px solid grey; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+  width: 100%; /* Full width for mobile responsiveness */
+}
+
+/* Input Hover Effect */
+input[type="file"]:hover {
+  border-color: black; /* Black on hover */
+}
+
+/* Button Styling */
+button {
+  font-size: 15px; /* Font size */
+  background-color: #4a90e2; /* Button background color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  margin-top: 10px;
+  padding: 10px 20px; /* Padding for button */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Button Hover Effect */
+button:hover {
+  background-color: #3b78c7; /* Darker blue on hover */
+}
+
+/* Message Area */
+.message,
+.error {
+  margin-top: 20px; /* Space above the message area */
+  text-align: center; /* Center align message */
+}
+
+/* Message Colors */
+.message {
+  color: #28a745; /* Green color for success messages */
+}
+
+.error {
+  color: #dc3545; /* Red color for error messages */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px; /* Reduced padding for smaller screens */
+    margin: 10px; /* Reduced margin for smaller screens */
+  }
+
+  h1 {
+    font-size: 1.5em; /* Adjust title font size */
+  }
+
+  input[type="file"],
+  button {
+    padding: 12px; /* Slightly larger padding for better touch */
+    font-size: 1em; /* Increase font size for better readability */
+  }
+}
