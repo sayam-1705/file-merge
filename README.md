@@ -1,44 +1,73 @@
-# file-merge
+# 📂 File-Merge
 
 ## 📌 Overview
-**file-merge** is a simple tool that takes multiple code files (such as `.js`, `.ts`, `.html`, etc.) and converts their contents into a single `.txt` file. This can be useful for documentation, archiving, or analyzing code without syntax formatting.
+
+**File-Merge** is a lightweight tool designed to merge multiple code files (`.js`, `.ts`, `.html`, `.css`, `.py`, etc.) into a single `.txt` file. It is ideal for documentation, archiving, or analyzing code without syntax formatting.
 
 ## 🔧 Features
-- Supports multiple programming languages (`.js`, `.ts`, `.html`, `.css`, `.py`, etc.)
-- Combines all selected files into a single `.txt` file
-- Preserves the file structure in the text output
-- Easy to use CLI interface
+
+- ✅ Supports multiple programming languages (`.js`, `.ts`, `.html`, `.css`, `.py`, etc.)
+- 📂 Combines all selected files into a single `.txt` file
+- 🔍 Preserves file structure in the text output
+- 🖥️ Simple and user-friendly CLI interface
+- 🚀 Fast and efficient processing
+
+---
 
 ## 🚀 Installation
+
 Clone the repository and install dependencies:
+
 ```bash
 git clone https://github.com/sayam-1705/file-merge.git
-# for backend
+```
+
+### Install Dependencies:
+
+```bash
 cd backend
 npm install
-# for frontend
-cd frontend
+cd ../frontend
 npm install
 ```
 
+---
+
 ## 🔥 Usage
+
 Run the script and specify the directory containing the files:
+
+### Start Backend:
+
 ```bash
-# run backend
 cd backend
-npm run start
-# run frontend
+npm start
+```
+
+### Start Frontend:
+
+```bash
 cd frontend
 npm run dev
 ```
 
+---
+
 ## 📁 Supported File Types
+
 - JavaScript (`.js`)
 - TypeScript (`.ts`)
 - HTML (`.html`)
 - CSS (`.css`)
 - Python (`.py`)
+- JSON (`.json`)
+- Markdown (`.md`)
 - And more!
 
+---
+
 ## 🤝 Contributing
-Feel free to fork this repository and submit pull requests!
+
+We welcome contributions! Fork the repository, create a new branch, and submit a **pull request** to improve File-Merge.
+
+Happy Coding! 🚀

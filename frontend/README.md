@@ -1,8 +1,22 @@
-# React + Vite
+# 🎨 File-Merge - Frontend Documentation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
 
-Currently, two official plugins are available:
+The frontend of **File-Merge** is built using **React.js**, providing a simple and intuitive interface for users to upload and merge multiple code files into a single `.txt` file.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 🛠️ Dependencies
+
+### 📦 Main Dependencies
+
+- **react**: Core React library for building the user interface.
+- **react-dom**: Enables React to interact with the DOM.
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Fork the repository, create a new branch, and submit a **pull request** to enhance File-Merge.
+
+Happy Coding! 🚀
