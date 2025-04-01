@@ -16,6 +16,20 @@
 
 ---
 
+## 📁 Supported File Types
+
+- JavaScript (`.js`)
+- TypeScript (`.ts`)
+- HTML (`.html`)
+- CSS (`.css`)
+- Python (`.py`)
+- JSON (`.json`)
+- Markdown (`.md`)
+- And more!
+
+---
+
+
 ## 📚 Documentation
 
 - For detailed instructions on the frontend, visit the [Frontend Documentation](frontend/README.md).
@@ -59,19 +73,6 @@ npm start
 cd frontend
 npm run dev
 ```
-
----
-
-## 📁 Supported File Types
-
-- JavaScript (`.js`)
-- TypeScript (`.ts`)
-- HTML (`.html`)
-- CSS (`.css`)
-- Python (`.py`)
-- JSON (`.json`)
-- Markdown (`.md`)
-- And more!
 
 ---
 
