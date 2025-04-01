@@ -1,4 +1,4 @@
-# 🎨 File-Merge - Frontend Documentation
+# 📂 File-Merge - Frontend Documentation
 
 ## 📌 Overview
 
