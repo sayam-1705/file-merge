@@ -4,6 +4,8 @@
 
 **File-Merge** is a lightweight tool designed to merge multiple code files (`.js`, `.ts`, `.html`, `.css`, `.py`, etc.) into a single `.txt` file. It is ideal for documentation, archiving, or analyzing code without syntax formatting.
 
+---
+
 ## 🔧 Features
 
 - ✅ Supports multiple programming languages (`.js`, `.ts`, `.html`, `.css`, `.py`, etc.)
