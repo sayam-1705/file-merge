@@ -26,8 +26,6 @@ The backend of **File-Merge** is built using **Node.js** and **Express.js**. It 
 
 ---
 
----
-
 ## 🛠️ Environment Variables
 
 To configure the backend, create a `.env` file in the root directory and add the following:
