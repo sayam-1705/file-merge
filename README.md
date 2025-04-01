@@ -16,6 +16,13 @@
 
 ---
 
+## 📚 Documentation
+
+- For detailed instructions on the frontend, visit the [Frontend Documentation](frontend/README.md).
+- For detailed instructions on the backend, visit the [Backend Documentation](backend/README.md).
+
+---
+
 ## 🚀 Installation
 
 Clone the repository and install dependencies:
